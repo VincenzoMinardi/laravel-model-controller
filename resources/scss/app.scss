@@ -5,16 +5,3 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.container-card {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.card {
-    width: 95%;
-}
-
-.card:hover {
-    border-color: green;
-}
