@@ -7,6 +7,16 @@
         @vite('resources/js/app.js')
     </head>
     <body>
+        <div class="container">
+            @foreach ($movies as $movie)
+            <div>{{$movie->title}}</div>
+            <div>{{$movie->original_title}}</div>
+            <div>{{$movie->nationality}}</div>
+            <div>{{$movie->date}}</div>
+            <div>{{$movie->vote}}</div>
+                
+            @endforeach
+        </div>
         
        
     </body>
